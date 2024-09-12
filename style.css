@@ -1,0 +1,46 @@
+body {  display: flex;
+    flex-direction: column;  justify-content: center;
+    align-items: center;  height: 100vh;
+    position: relative;  gap: 30px;
+    padding-top: 40px;  background-color: lightblue;
+  }
+  .container {
+    display: flex;  justify-content: center;
+    align-items: center;}
+  .box {  display: flex;
+    flex-direction: row;  justify-content: center;
+    align-items: center;  font-size: 60px;
+    margin: 0;  padding: 0;
+    flex-wrap: wrap;  gap: 20px;
+    width: 70%;  background-color: lightpink;
+    border-radius: 80px;
+  }.q {
+    display: flex;  justify-content: center;
+    align-items: center;  text-align: center;
+    font-size: 60px;  background-color: lightpink;
+    border-radius: 80px;
+  }
+  .box1 {  display: flex;
+    justify-content: center;  align-items: center;
+    gap: 10px;}
+  .box1 * {  display: flex;
+    justify-content: center;  align-items: center;
+    background: white;  width: 80px;
+    height: 80px;  border-radius: 80px;
+    gap: 10px;  font-size: 60px;
+  }.level {
+    position: absolute;  left: 400px;
+    bottom: 10px;  font-size: 24px;
+    background-color: white;  padding: 10px;
+    border-radius: 80px;}
+  
+  .error {  position: absolute;
+    right: 400px;  bottom: 10px;
+    font-size: 24px; 
+    padding: 10px;  border-radius: 80px;
+    background-color: white;
+  }
+  .a:hover{
+    background-color: white;
+    font-size: 63px;
+  }
